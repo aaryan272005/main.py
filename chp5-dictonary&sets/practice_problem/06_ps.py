@@ -10,7 +10,7 @@ num_friends=int(input("Enter the number of friends: "))
 # Use a for loop to get the friends names and their favourite language from the user
 for i in range(num_friends):
     name=(input(f"Enter the name {i+1}:"))
-    lang=(input("Enter the favourite language:"))
+    lang=(input("Enter their favourite language:"))
 
     #adding/updating the name and lang in dictionary
     d.update({name:lang})
